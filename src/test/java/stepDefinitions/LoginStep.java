@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import io.cucumber.java.en.*;
-import org.openqa.selenium.safari.SafariDriver;
 
 public class LoginStep {
     WebDriver driver;
