@@ -22,7 +22,7 @@ public class LoginStepScenarioOutline {
         options.addArguments("--disable-dev-shm-usage");
 // Generate a unique user-data-dir for each session
         options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + System.currentTimeMillis());
-        System.setProperty("webdriver.chrome.d
+        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
         driver.get("https://practicetestautomation.com/practice-test-login/");
     }
 
