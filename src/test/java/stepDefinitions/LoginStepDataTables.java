@@ -28,6 +28,7 @@ public class LoginStepDataTables {
         options.addArguments("--headless=new"); // Use headless mode (for Chrome 109+ use --headless=new)
         options.addArguments("--no-sandbox");
         options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--remote-allow-origins=*");
 // Generate a unique user-data-dir for each session
         options.addArguments("--user-data-dir=/tmp/chrome-user-data-" + System.currentTimeMillis());
         System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
